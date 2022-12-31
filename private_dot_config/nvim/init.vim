@@ -1,12 +1,4 @@
-call plug#begin('~/.vim/plugged')
-
-Plug 'scrooloose/nerdtree'
-
-" Colorschemes
-Plug 'morhetz/gruvbox'
-
-call plug#end()
-
+execute pathogen#infect()
 set mouse=a
 set encoding=utf-8
 set number
