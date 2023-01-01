@@ -1,5 +1,9 @@
 execute pathogen#infect()
 
+set keymap=russian-jcukenwin
+set iminsert=0
+set imsearch=0
+
 set mouse=a
 set encoding=utf-8
 set number

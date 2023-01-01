@@ -19,8 +19,8 @@ set $term alacritty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-#set $menu dmenu_path | dmenu | xargs swaymsg exec --
-set $menu wofi --show run | xargs swaymsg exec --
+set $menu dmenu_path | dmenu | xargs swaymsg exec --
+#set $menu wofi --show run | xargs swaymsg exec --
 
 ###
 exec waybar
@@ -45,10 +45,10 @@ output eDP-1	resolution 1920x1080 position 0,0
 #
 # Example configuration:
 #
-exec swayidle -w \
-    timeout 300 'swaylock -f -c 000000' \
-    timeout 600 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
-    before-sleep 'swaylock -f -c 000000'
+#exec swayidle -w \
+#    timeout 300 'swaylock -f -c 000000' \
+#    timeout 600 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
+#    before-sleep 'swaylock -f -c 000000'
 #
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
