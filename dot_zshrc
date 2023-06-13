@@ -72,7 +72,6 @@ ZSH_THEME="eastwood"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
     git
-    zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -104,9 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export _JAVA_AWT_WM_NONREPARENTING=1
-export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
+export JAVA_HOME=/usr/lib/jvm/java-20-openjdk
 export PATH=$PATH:/home/imkrasnyukov/.local/bin
-export PATH="$PATH:/home/imkrasnyukov/.local/share/coursier/bin"
-export PATH=$PATH:/snap/bin
 
 alias vim=nvim
