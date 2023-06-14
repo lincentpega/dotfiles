@@ -28,8 +28,8 @@ window#waybar {
 }
 
 #workspaces button.focused {
-    color: #c9545d;
-    border-top: 2px solid #c9545d;
+    color: #4c7899;
+    border-top: 2px solid #4c7899;
 }
 
 #mode {
@@ -38,8 +38,8 @@ window#waybar {
 }
 
 #clock, #battery, #cpu, #memory, #network, #pulseaudio, #custom-spotify, #tray, #mode {
-    padding: 0 3px;
-    margin: 0 2px;
+    padding: 0 5px;
+    margin: 0 4px;
 }
 
 #clock {
